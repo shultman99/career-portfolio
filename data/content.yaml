@@ -1,0 +1,107 @@
+profile:
+  name: Sophia Hultman
+  title: Technical Writer
+  tagline: Creating hardware and software documentation with key stakeholders to deliver quality resources to customers.
+  photo: images/1694917209758.jpg
+  resume: hultman_sophia_resume.pdf
+  location: Newton, Massachusetts
+  bio: Senior technical writer with 4.5 years supporting biomedical device documentation. Creates comprehensive documentation for hardware and software solutions, ensuring alignment with regulatory requirements and user needs.
+  
+  
+contact:
+  email: sophia.hultman99@gmail.com
+  phone: (781) 738-4528
+  linkedin: in/sophia-h-6838b2124/
+  github: shultman99
+  website: sophiahultman.com
+
+
+skills:
+  - category: User Manuals & Guides
+    items:
+      - Azenta Limfinity® Biobanking LIMS
+      - AstraZeneca Cell Management
+      - Aware Fingerprint & Knomi Face Capture
+  
+  - category: Service Procedures
+    items:
+      - CryoExchange Teach Procedures
+      - BioStore FRU Procedure
+      - Installation Operational & Performance Qualifications
+  
+  - category: Translations & Localizations
+    items:
+      - Romance (Spanish, French & Italian)
+      - Slavic (Croatian & Slovakian)
+      - Asian (Japanese & Korean)
+  
+  - category: Architecture
+    items:
+      - Company Rebrand Workflows
+      - Documentation Style Guides
+      - SVN Document Control Systems
+
+
+experience:
+  - title: Technical Writer II
+    company: Aware, Inc.
+    location: Burlington, MA
+    period: December 2024 - Present
+    highlights:
+      - Collaborated cross-discipline with Subject Matter Experts and key Stakeholders to review, edit, and publish documentation for external and internal users for Aware products.
+      - Collaborated with Aware Inc.'s Marketing team to develop a standardized, customer-facing documentation template in MadCap Flare, aligned with Aware Branding Guidelines. This template is now adopted across all user manuals for all product families.
+      - Recognized the need for a structured document management process at Aware. Conducted a gap analysis and developed a strategic roadmap to improve workflows. Evaluated, tested, and implemented tools such as MadCap Flare, DocuWare, and SharePoint to establish an end-to-end system covering content authoring, version control, review, approval, final release, and storage.
+      - Identified the absence of a centralized, scalable repository for published documentation at Aware. Created an interim database in SharePoint to store and organize final document versions for company-wide access. Concurrently implemented DocuWare to establish a long-term, searchable database for maintaining up-to-date documentation.
+      - Identified gaps in cross-functional collaboration between Product and Marketing at Aware, impacting customer deadlines.
+      - Initiated and led weekly stakeholder meetings to align on product updates and release schedules, improving communication and ensuring timely customer-facing releases.
+      - Assisted in writing API documentation, providing clear instructions and examples to help users understand and implement basic functionality.
+
+  - title: Technical Writer II
+    company: Azenta Life Sciences
+    location: Burlington, MA
+    period: February 2024 - December 2024
+    highlights:
+      - Created SOPs that streamlined Service & Repair technician workflows, documenting hardware and software updates in collaboration with Azenta Service engineers to improve customer support.
+      - "Translation Expert: Managed manual translations using Lingo and Flare, coordinating raw content file exchanges and publishing translated materials to support global expansion."
+      - "Limfinity® Biobanking LIMS Expert: Wrote four software user manuals (60–400 pages) from the ground up, leveraging demo environments to document all functions with annotated visuals and Flare-based procedures, enhancing usability for researchers, clinicians, patients, and internal staff."
+      - Evaluated software tools for video creation, CAD model design, and interactive documentation, presenting top recommendations to management to expand customer content offerings.
+
+  - title: Technical Writer I
+    company: Aware Life Sciences
+    location: Burlington, MA
+    period: May 2021 - February 2024
+    highlights:
+      - Re-architected legacy LabVIEW-based test report parsing by rewriting in C#, reducing runtime by over 80%
+      - Managed critical test network software by writing and scheduling SQL database sorting using PowerShell scripts to speed up global share-drive data collection
+      - Supported emergency CAPA effort using Python and Minitab to analyze over 2,000 production units
+    
+  - title: Writing Center Tutor
+    company: UMass Amherst Writing Center
+    location: Amherst, MA
+    period: September 2018 - May 2021
+    highlights: ""
+    
+  - title: Social Media Marketing Specialist
+    company: Taproots Arts and Insights
+    location: Shutesbury, MA
+    period: February 2019 - May 2020
+    highlights: ""
+
+projects:
+  - title: Portfolio Website
+    url: https://github.com/shultman99/portfolio-website
+    description: Personal portfolio website built with Python and hosted on GitHub Pages.
+    tags:
+      - Python
+      - Portfolio
+      - Projects
+      - YAML
+    period: February 2026 - Present
+    featured: true
+
+
+education:
+  degree: "B.A. English, GPA: 3.73"
+  institution: University of Massachusetts Amherst
+  year: 2021
+
