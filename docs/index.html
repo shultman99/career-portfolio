@@ -39,9 +39,8 @@
             <a href="#top" class="nav-brand">Sophia Hultman</a>
             <div class="nav-links">
                 <a href="#about">About</a>
-                <a href="#skills">Skills</a>
+                <a href="#skills">Projects</a>
                 <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
         </div>
@@ -205,44 +204,27 @@
         </div>
     </section>
 
-    <section id="projects" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Portfolio Website</h3>
-                        <span class="period">February 2026 - Present</span>
-                    </div>
-                    <p class="project-description">Personal portfolio website built with Python and hosted on GitHub Pages.</p>
-                    <div class="project-tags"><span class="tag">Python</span> <span class="tag">Portfolio</span> <span class="tag">Projects</span> <span class="tag">YAML</span></div>
-                    <a href="https://github.com/shultman99/portfolio-website" class="project-link" target="_blank">View Project →</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section id="contact" class="section">
         <div class="container">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-content">
                 <p>I'm always interested in discussing opportunities, questions, and projects.</p>
                 <div class="contact-links">
-                    <a href="mailto:sophia.hultman99@gmail.com" class="contact-link">
+                    <a href="mailto:{contact['email']}" class="contact-link">
                         <span class="contact-label">Email</span>
-                        <span class="contact-value">sophia.hultman99@gmail.com</span>
+                        <span class="contact-value">{contact['email']}</span>
                     </a>
-                    <a href="https://github.com/shultman99" class="contact-link" target="_blank">
+                    <a href="https://github.com/{contact['github']}" class="contact-link" target="_blank">
                         <span class="contact-label">GitHub</span>
-                        <span class="contact-value">github.com/shultman99</span>
+                        <span class="contact-value">github.com/{contact['github']}</span>
                     </a>
-                    <a href="https://linkedin.com/in/sophia-h-6838b2124/" class="contact-link" target="_blank">
+                    <a href="https://linkedin.com/{contact['linkedin']}" class="contact-link" target="_blank">
                         <span class="contact-label">LinkedIn</span>
-                        <span class="contact-value">linkedin.com/in/sophia-h-6838b2124/</span>
+                        <span class="contact-value">linkedin.com/{contact['linkedin']}</span>
                     </a>
-                    <a href="https://sophiahultman.com" class="contact-link" target="_blank">
+                    <a href="https://{contact['website']}" class="contact-link" target="_blank">
                         <span class="contact-label">Website</span>
-                        <span class="contact-value">sophiahultman.com</span>
+                        <span class="contact-value">{contact['website']}</span>
                     </a>
                 </div>
             </div>
@@ -251,8 +233,8 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Sophia Hultman. Built with Python, YAML, and minimal dependencies.</p>
-            <p class="footer-education">B.A. English, GPA: 3.73 - University of Massachusetts Amherst (2021)</p>
+            <p>&copy; 2025 {profile['name']}. Built with Python, YAML, and minimal dependencies.</p>
+            <p class="footer-education">{education['degree']} - {education['institution']} ({education['year']})</p>
         </div>
     </footer>
 

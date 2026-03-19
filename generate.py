@@ -71,7 +71,7 @@ def generate_html(data: dict) -> str:
             <a href="#top" class="nav-brand">{profile['name']}</a>
             <div class="nav-links">
                 <a href="#about">About</a>
-                <a href="#skills">Skills</a>
+                <a href="#skills">Projects</a>
                 <a href="#experience">Experience</a>
                 <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
@@ -162,33 +162,6 @@ def generate_html(data: dict) -> str:
                     </ul>
                 </div>'''
     html += '''
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="section section-alt">
-        <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
-            <div class="projects-grid">'''
-    for project in featured_projects:
-        tags_html = ' '.join([f'<span class="tag">{tag}</span>' for tag in project.get('tags', [])])
-        image_html = ''
-        if 'image' in project and project['image']:
-            image_html = f'''
-                    <div class="project-image">
-                        <img src="images/{project['image']}" alt="{project['title']}">
-                    </div>'''
-        html += f'''
-                <div class="project-card">{image_html}
-                    <div class="project-header">
-                        <h3>{project['title']}</h3>
-                        <span class="period">{project['period']}</span>
-                    </div>
-                    <p class="project-description">{project['description']}</p>
-                    <div class="project-tags">{tags_html}</div>
-                    <a href="{project['url']}" class="project-link" target="_blank">View Project →</a>
-                </div>'''
-    html += f'''
             </div>
         </div>
     </section>
