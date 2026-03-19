@@ -5,7 +5,7 @@ profile:
   photo: images/1694917209758.jpg
   resume: hultman_sophia_resume.pdf
   location: Newton, Massachusetts
-  bio: Senior technical writer with 4.5 years supporting biomedical device documentation. Creates comprehensive documentation for hardware and software solutions, ensuring alignment with regulatory requirements and user needs.
+  bio: Technical Writer with 4+ years of experience making complex hardware and software systems easier to understand. Works closely with engineers and cross-functional teams to create clear, structured documentation and improve how content is built, organized, and delivered. Focused on usability, scalability, and real-world impact.
   
   
 contact:
@@ -34,11 +34,23 @@ skills:
       - Romance (Spanish, French & Italian)
       - Slavic (Croatian & Slovakian)
       - Asian (Japanese & Korean)
+
+  - category: Markup & Web
+    items:
+      - HTML
+      - CSS
+      - Markdown
+
+  - category: Authoring & Documentation
+    items:
+      - MadCap Flare
+      - MadCap Lingo
+      - Archbee
   
   - category: Architecture
     items:
       - Company Rebrand Workflows
-      - Documentation Style Guides
+      - Greenfield Architectural Development
       - SVN Document Control Systems
 
 

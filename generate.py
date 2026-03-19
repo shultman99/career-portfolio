@@ -73,7 +73,6 @@ def generate_html(data: dict) -> str:
                 <a href="#about">About</a>
                 <a href="#skills">Projects</a>
                 <a href="#experience">Experience</a>
-                <a href="#projects">Projects</a>
                 <a href="#contact">Contact</a>
             </div>
         </div>
@@ -122,7 +121,7 @@ def generate_html(data: dict) -> str:
 
     <section id="skills" class="section section-alt">
         <div class="container">
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">Projects</h2>
             <div class="skills-grid">'''
     for skill_cat in skills:
         html += f'''
