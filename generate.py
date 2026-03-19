@@ -160,7 +160,7 @@ def generate_html(data: dict) -> str:
         html += '''
                     </ul>
                 </div>'''
-    html += '''
+    html += f'''
             </div>
         </div>
     </section>
