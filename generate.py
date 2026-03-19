@@ -248,7 +248,7 @@ def generate_css() -> str:
 }
 
 :root {
-    --navy: #A17941;
+    --navy: #E27628;
     --navy-light: #c49a5a;
     --navy-dark: #7a5c30;
     --gold: #fffde4;
