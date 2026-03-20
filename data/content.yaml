@@ -83,9 +83,9 @@ experience:
     location: Burlington, MA
     period: May 2021 - February 2024
     highlights:
-      - Re-architected legacy LabVIEW-based test report parsing by rewriting in C#, reducing runtime by over 80%
-      - Managed critical test network software by writing and scheduling SQL database sorting using PowerShell scripts to speed up global share-drive data collection
-      - Supported emergency CAPA effort using Python and Minitab to analyze over 2,000 production units
+      - Authored comprehensive end-user manuals (60–400 pages) for Limfinity® Biobanking LIMS, translating complex workflows into accessible, user-centered documentation for technical and non-technical audiences. 
+      - "Led localization workflows using MadCap Flare and Lingo, enabling scalable translation and global delivery of documentation across eight languages: German, Croatian, Slovak, French, Italian, Spanish, Japanese, and Portuguese."
+      - Created 28 detailed hardware procedures based on field observation, improving operator efficiency and reducing training gaps. 
     
   - title: Writing Center Tutor
     company: UMass Amherst Writing Center
